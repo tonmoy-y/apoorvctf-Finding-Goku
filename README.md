@@ -52,7 +52,7 @@ if __name__ == "__main__":
 Connect to the server: `nc chals1.apoorvctf.xyz 5002`
 
 ## Solution
-Look at the code carefully. The code is really very simple. After running the program it will ask for two hex values. But the hex value cann't be same . IF same the program will print error and we can't get the flag. Again we must start with 'GOKU' in hex in order to proceed with the flag. Now here comes the interesting part. At this point the program will check for the md5 hash value to see if those two values are the same. We know that each hash is unique but for the md5 hash there is something called md5 collision. It means that for two different values there can be the same hash value. To print the hash we perform a md5 collusion attack.
+Look at the code carefully. The code is really very simple. After running the program it will ask for two hex values. But the hex value cann't be same . If same the program will print error and we can't get the flag. Again we must start with 'GOKU' in hex in order to proceed with the flag. Now here comes the interesting part. At this point the program will check for the md5 hash value to see if those two values are the same. We know that each hash is unique but for the md5 hash there is something called md5 collision. It means that for two different values there can be the same hash value. To print the hash we perform a md5 collusion attack.
 This challenge involves exploiting an MD5 collision. The provided Python script requires two distinct hex inputs that:
 
 1.  Start with the ASCII representation of "GOKU".
