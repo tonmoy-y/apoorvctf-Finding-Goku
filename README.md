@@ -66,7 +66,7 @@ To achieve this, we'll use `fastcoll` to generate an MD5 collision.
 1.  **Clone and build `fastcoll`:**
 
     ```bash
-    git clone [https://github.com/upbit/clone-fastcoll](https://github.com/upbit/clone-fastcoll) fastcoll
+    git clone https://github.com/upbit/clone-fastcoll fastcoll
     cd fastcoll
     make
     cd ..
