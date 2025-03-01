@@ -1,6 +1,5 @@
-# Cryptography (apoorvctf)
-
-# Finding Goku
+# Finding Goku (Crypto)
+<hr>
 
 ## Problem Description
 
@@ -111,9 +110,7 @@ To achieve this, we'll use `fastcoll` to generate an MD5 collision.
     ```bash
     nc chals1.apoorvctf.xyz 5002
     ```
-
-    * Enter the content of `first.hex` as the first hex data.
-    * Enter the content of `second.hex` as the second hex data.
+    You need to change the format of those files to be able to copy the hex values from the file
 
     Example (replace with your generated hex data):
 
